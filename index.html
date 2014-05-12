@@ -1,185 +1,240 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Asheesh Ranjan - Geek and Hacker</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
-<link rel="stylesheet" type="text/css" href="css/default.css" media="all">
-<link rel="stylesheet" type="text/css" href="css/flexslider.css">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans">
-<script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/default.js"></script>
-<!--[if lt IE 9]>
-<script src="js/html5.js"></script>
-<script src="js/respond.min.js"></script>
-<![endif]-->
-</head>
+<!DOCTYPE HTML>
+	
+<html>
+	<head>
+		<title>Asheesh Ranjan - Software Developer</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/skel.min.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	</head>
+	<body>
 
-<body>
-<div><!-- id="summary">-->
-  <header id="header">
-    <div class="center">
-      <nav id="mainNav">
-        <ul>
-          <li class="active"><a href="#summary"><span>about me</span></a></li>
-	  <!--          <li><a href="#education"><span>education</span></a></li>
-	  <!--          <li><a href="#projects"><span>projects</span></a></li>
-          <!--<li><a href="#work"><span>work experience</span></a></li>
-	  <!--          <li><a href="#publications"><span>publications</span></a></li>
-	  <!--          <li><a href="#awards"><span>awards</span></a></li>-->
-          <li><a href="#contact"><span>contact</span></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#summary">About</a></li>
+					<li><a href="#research">Research</a></li>
+					<li><a href="#exp">Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-  <div id="content">
-    <section id="summary" class="row">
-      <div class="center">
-        <h1>Asheesh Ranjan</h1>
-<!--        <strong class="subHeading"><a href="http://github.com/asheeshr">asheeshr</a></strong>
-        <div class="gallery">
-          <ul class="slides">
-            <li><img src="img/img-gallery.jpg" alt=""></li>
-            <li><img src="img/img-gallery2.jpg" alt=""></li>
-            <li><img src="img/img-gallery3.jpg" alt=""></li>
-          </ul>
-        </div>
-        <div class="buttons"> <a href="#" class="btn btnGreen"><span>Download Template</span></a> <span><em>or</em></span> <a href="#" class="btn btnBlue"><span>Visit Developers Site</span></a> </div>-->
-      </div>
-    </section>
+		<!-- Home -->
+			<div class="wrapper wrapper-style1 wrapper-first">
+				<article class="container" id="top">
+					<div class="row">
+						<div class="4u">
+							<span class="me image image-full"><img src="images/me.jpg" alt="" /></span>
+						</div>
+						<div class="8u"><center>
+							<header>
+								<h1>Hi. I'm <strong>Asheesh Ranjan</strong>.</h1>
+							</header>
+							<p>This is my personal website, and is currently being built. It should be ready soon!
+							</p>
 
-<!--    <section id="twoColumnLayout" class="row grey">
-      <div class="center">
-        <h1>Two Column Layout</h1>
-        <strong class="subHeading">lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>
-        <div class="columns">
-          <div class="half">
-            <div class="imgHolder alignLeft"><img src="img/content01.jpg" alt=""></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar urna risus a orci.</p>
-            <p>Ut scelerisque, sapien in luctus ultrices, magna ante convallis</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar urna risus a orci.</p>
-            <p>Ut scelerisque, sapien in luctus ultrices, magna ante convallis orci, vel iaculis massa sapien sed risus.</p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur </li>
-              <li>adipiscing elit. In luctus, tortor vel</li>
-            </ul>
-            <p>Ut scelerisque, sapien in luctus ultrices, <a href="#">magna ante convallis</a> orci, vel iaculis massa sapien sed risus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar urna risus a orci.</p>
-          </div>
-          <div class="half">
-            <div class="imgHolder fullWidth"><img src="img/content02.jpg" alt=""></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar urna risus a orci.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar urna risus a orci.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="threeColumnLayout" class="row">
-      <div class="center">
-        <h1>Three Column Layout</h1>
-        <strong class="subHeading">lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>
-        <div class="columns">
-          <div class="oneThird">
-            <div class="imgHolder fullWidth"><img src="img/content03.jpg" alt=""></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa <a href="#">tellus elementum</a> nunc, eu pulvinar urna risus a orci.</p>
-            <p>Ut scelerisque, sapien in luctus ultrices, magna ante convallis orci</p>
-          </div>
-          <div class="oneThird">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc.</p>
-            <ul>
-              <li>Lorem ipsum dolor sit amet, consectetur </li>
-              <li>adipiscing elit. In luctus, tortor vel</li>
-              <li>pharetra, massa tellus elementum nunc</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus. </p>
-            <p>In luctus, tortor vel vehicula pharetra, massa tellus. S ss fit amet, consectetur adipiscing elit. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus. </p>
-          </div>
-          <div class="oneThird">
-            <div class="imgHolder alignLeft"><img src="img/content05.jpg" alt=""></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar urna risus a orci.</p>
-            <p>Ut scelerisque, sapien in luctus ultrices, magna ante convallis orci, vel iaculis massa sapien sed risus.</p>
-            <p>Ut scelerisque, sapien in luctus ultrices, magna ante convallis orci, vel iaculis massa sapien sed risus.</p>
-            <p>Ut scelerisque, sapien in luctus ultrices, magna ante convallis orc.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="boxes" class="row grey">
-      <div class="center">
-        <h1>Information Boxes</h1>
-        <strong class="subHeading">lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>
-        <div class="columns">
-          <article class="news oneThird">
-            <div>
-              <h3><a href="#">Lorem ipsum dolor</a></h3>
-              <div class="content"> <a href="#" class="imgHolder fullWidth"><img src="img/img-news01.jpg" alt=""></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-              <div class="readMore"><a href="#" class="btn btnSmall"><span>Read More</span></a></div>
-            </div>
-          </article>
-          <article class="news oneThird">
-            <div>
-              <h3><a href="#">Lorem ipsum dolor</a></h3>
-              <div class="content"> <a href="#" class="imgHolder fullWidth"><img src="img/img-news01.jpg" alt=""></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-              <div class="readMore"><a href="#" class="btn btnSmall"><span>Read More</span></a></div>
-            </div>
-          </article>
-          <article class="news oneThird">
-            <div>
-              <h3><a href="#">Lorem ipsum dolor</a></h3>
-              <div class="content"> <a href="#" class="imgHolder fullWidth"><img src="img/img-news01.jpg" alt=""></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-              <div class="readMore"><a href="#" class="btn btnSmall"><span>Read More</span></a></div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-    <section id="testiomonialsTab" class="row">
-      <div class="center">
-        <h1>Testimonials</h1>
-        <strong class="subHeading">lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>
-        <div id="testimonials" class="gallery">
-          <ul class="slides">
-            <li>
-              <div class="row">
-                <blockquote> <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar </q> </blockquote>
-                <blockquote> <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar </q> </blockquote>
-              </div>
-              <div class="row">
-                <blockquote> <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar </q> </blockquote>
-                <blockquote> <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, massa tellus elementum nunc, eu pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus, tortor vel vehicula pharetra, mas</q> </blockquote>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>-->
+<!--<strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://n33.co/">AJ</a> for <a href="http://html5up.net/">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license/">CCA license</a>.</p>-->
+<!--							<a href="#work" class="button button-big">Learn about what I do</a>-->
+						</div></center>
+					</div>
+				</article>
+			</div>
 
-    <section id="contact" class="row grey">
-      <div class="center">
-	<h1>Contact</h1>
-	<strong class="subHeading">Have something interesting to say? I would love to hear from you!<br><br>
-	  <a href="mailto:ashrj@outlook.com" target="_top">Send an E-Mail</a></strong>
-      </div>
-    </section>
-  </div> <!--Content Div-->
-  
-  <footer id="footer">
-    <div class="center">&copy; Copyright 2014 <a href="#">Asheesh Ranjan</a>. All Rights Reserved <span class="copy">Website Template By <a target="_blank" href="http://webcodebuilder.com">WebCodeBuilder</a></span></div>
-  </footer>
+		<!-- Research -->
+<!--			<div class="wrapper wrapper-style2">
+				<article id="research">
+					<header>
+						<h2>I am working on some interesting projects</h2>
+						<span></span>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-comments-o"></span>
+									<h3>Consequat lorem</h3>
+									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-file-o"></span>
+									<h3>Lorem dolor tempus</h3>
+									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								</section>
+							</div>
+							<div class="4u">
+								<section class="box box-style1">
+									<span class="fa featured fa-thumbs-o-up"></span>
+									<h3>Feugiat posuere</h3>
+									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#portfolio" class="button button-big">See some of my recent work</a>
+					</footer>
+				</article>
+			</div>
 
-</div>
+		<!-- Portfolio -->
+<!--			<div class="wrapper wrapper-style3">
+				<article id="portfolio">
+					<header>
+						<h2>Awesome work makes happy clients.</h2>
+						<span>Proin odio consequat  sapien vestibulum ipsum primis sed amet consequat lorem dolore feugiat lorem ipsum dolore.</span>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="12u">
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/generic-smartphone/8949517882265310" class="image image-full"><img src="images/portfolio01.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/generic-smartphone/8949517882265310">Magna feugiat</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio02.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/n33">Veroeros primis</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/wood-ui-kit/3574765984616310" class="image image-full"><img src="images/portfolio03.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/wood-ui-kit/3574765984616310">Lorem ipsum</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/n33-pattern-set-1/3522389001865317" class="image image-full"><img src="images/portfolio04.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/n33-pattern-set-1/3522389001865317">Tempus dolore</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/cityscape/9803996277226316" class="image image-full"><img src="images/portfolio05.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/cityscape/9803996277226316">Feugiat aliquam</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box box-style2">
+									<a href="http://flypixel.com/n33" class="image image-full"><img src="images/portfolio06.jpg" alt="" /></a>
+									<h3><a href="http://flypixel.com/n33">Sed amet ornare</a></h3>
+									<p>Ornare nulla proin odio consequat.</p>
+								</article>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#contact" class="button button-big">Get in touch with me</a>
+					</footer>
+				</article>
+			</div>
 
+		<!-- Contact -->
+<!--			<div class="wrapper wrapper-style4">
+				<article id="contact" class="container small">
+					<header>
+						<h2>Want to hire me? Get in touch!</h2>
+						<span>Ornare nulla proin odio consequat sapien vestibulum ipsum sed lorem.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row half">
+											<div class="6u">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<a href="#" class="button form-button-submit">Send Message</a>
+												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="row">
+							<div class="12u">
+								<hr />
+								<h3>Find me on ...</h3>
+								<ul class="social">
+									<li class="twitter"><a href="http://twitter.com/n33co" class="fa fa-twitter"><span>Twitter</span></a></li>
+									<li class="facebook"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+									<li class="dribbble"><a href="http://dribbble.com/n33" class="fa fa-dribbble"><span>Dribbble</span></a></li>
+									<li class="linkedin"><a href="#" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
+									<li class="tumblr"><a href="#" class="fa fa-tumblr"><span>Tumblr</span></a></li>
+									<li class="googleplus"><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+									<li class="github"><a href="http://github.com/n33" class="fa fa-github"><span>Github</span></a></li>
+									<!--
+									<li class="rss"><a href="#" class="fa fa-rss"><span>RSS</span></a></li>
+									<li class="instagram"><a href="#" class="fa fa-instagram"><span>Instagram</span></a></li>
+									<li class="foursquare"><a href="#" class="fa fa-foursquare"><span>Foursquare</span></a></li>
+									<li class="skype"><a href="#" class="fa fa-skype"><span>Skype</span></a></li>
+									<li class="soundcloud"><a href="#" class="fa fa-soundcloud"><span>Soundcloud</span></a></li>
+									<li class="youtube"><a href="#" class="fa fa-youtube"><span>YouTube</span></a></li>
+									<li class="blogger"><a href="#" class="fa fa-blogger"><span>Blogger</span></a></li>
+									<li class="flickr"><a href="#" class="fa fa-flickr"><span>Flickr</span></a></li>
+									<li class="vimeo"><a href="#" class="fa fa-vimeo"><span>Vimeo</span></a></li>
+									-->
+<!--								</ul>
+								<hr />
+							</div>-->
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; 2014 Asheesh Ranjan</li>
+<!--							<li>Images: <a href="http://fotogrph.com">fotogrph</a></li>
+							<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>-->
+						</ul>
+					</footer>
+				</article>
+			</div>
+
+
+	</body>
 </html>
