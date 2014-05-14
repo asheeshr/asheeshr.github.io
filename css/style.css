@@ -241,8 +241,12 @@
 		display: inline-block;
 		color: #fff;
 		text-decoration: none;
-		font-weight: 700;
-		border: 0;
+		font-weight: 600;
+/*		padding-left: 1em;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-right: 1em;
+		border: 0;*/
 		outline: 0;
 		cursor: pointer;
 		border-radius: 8px;
@@ -638,7 +642,7 @@
 		.fa-hdd-o:before{content:"\f0a0"}
 		.fa-bullhorn:before{content:"\f0a1"}
 		/* Add Quora, Blogger and Stack Exchange */
-
+/*		.fa-stack-exchange:before{content:"\f0a2"}*/
 		.fa-bell:before{content:"\f0f3"}
 		.fa-certificate:before{content:"\f0a3"}
 		.fa-hand-o-right:before{content:"\f0a4"}
